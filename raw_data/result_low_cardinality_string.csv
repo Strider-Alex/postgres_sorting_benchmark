@@ -1,0 +1,120 @@
+sorting routine,pattern,n,correct,time(CPU clock ticks)
+heap sort,0,100000,0,37.800
+heap sort,0,1000000,0,412.800
+heap sort,0,10000000,0,4727.600
+heap sort,1,100000,0,42.000
+heap sort,1,1000000,0,676.800
+heap sort,1,10000000,0,7416.800
+heap sort,2,100000,0,31.200
+heap sort,2,1000000,0,468.200
+heap sort,2,10000000,0,5306.600
+heap sort,3,100000,0,32.600
+heap sort,3,1000000,0,499.000
+heap sort,3,10000000,0,5842.000
+heap sort,4,100000,0,33.200
+heap sort,4,1000000,0,495.800
+heap sort,4,10000000,0,5778.400
+heap sort,5,100000,0,48.000
+heap sort,5,1000000,0,826.000
+tim sort,0,100000,0,0.600
+tim sort,0,1000000,0,6.600
+tim sort,0,10000000,0,69.000
+tim sort,1,100000,0,24.800
+tim sort,1,1000000,0,412.800
+tim sort,1,10000000,0,5175.800
+tim sort,2,100000,0,4.400
+tim sort,2,1000000,0,58.600
+tim sort,2,10000000,0,619.600
+tim sort,3,100000,0,5.200
+tim sort,3,1000000,0,75.000
+tim sort,3,10000000,0,829.400
+tim sort,4,100000,0,5.800
+tim sort,4,1000000,0,74.400
+tim sort,4,10000000,0,861.200
+tim sort,5,100000,0,21.400
+tim sort,5,1000000,0,329.000
+dual pivot quick sort,0,100000,0,3.400
+dual pivot quick sort,0,1000000,0,37.000
+dual pivot quick sort,0,10000000,0,406.000
+dual pivot quick sort,1,100000,0,11.200
+dual pivot quick sort,1,1000000,0,190.600
+dual pivot quick sort,1,10000000,0,1779.200
+dual pivot quick sort,2,100000,0,4.400
+dual pivot quick sort,2,1000000,0,50.000
+dual pivot quick sort,2,10000000,0,531.000
+dual pivot quick sort,3,100000,0,4.600
+dual pivot quick sort,3,1000000,0,71.000
+dual pivot quick sort,3,10000000,0,656.000
+dual pivot quick sort,4,100000,0,5.000
+dual pivot quick sort,4,1000000,0,60.600
+dual pivot quick sort,4,10000000,0,605.800
+dual pivot quick sort,5,100000,0,10.600
+dual pivot quick sort,5,1000000,0,162.200
+pg intro sort,0,100000,0,0.600
+pg intro sort,0,1000000,0,6.200
+pg intro sort,0,10000000,0,67.000
+pg intro sort,1,100000,0,7.600
+pg intro sort,1,1000000,0,116.600
+pg intro sort,1,10000000,0,1193.000
+pg intro sort,2,100000,0,2.400
+pg intro sort,2,1000000,0,34.600
+pg intro sort,2,10000000,0,364.200
+pg intro sort,3,100000,0,2.800
+pg intro sort,3,1000000,0,37.800
+pg intro sort,3,10000000,0,408.800
+pg intro sort,4,100000,0,2.800
+pg intro sort,4,1000000,0,40.600
+pg intro sort,4,10000000,0,415.200
+pg intro sort,5,100000,0,7.200
+pg intro sort,5,1000000,0,110.600
+pg intro sort - 1 preordered check,0,100000,0,0.800
+pg intro sort - 1 preordered check,0,1000000,0,6.200
+pg intro sort - 1 preordered check,0,10000000,0,66.000
+pg intro sort - 1 preordered check,1,100000,0,7.000
+pg intro sort - 1 preordered check,1,1000000,0,106.400
+pg intro sort - 1 preordered check,1,10000000,0,1088.200
+pg intro sort - 1 preordered check,2,100000,0,2.400
+pg intro sort - 1 preordered check,2,1000000,0,34.800
+pg intro sort - 1 preordered check,2,10000000,0,368.200
+pg intro sort - 1 preordered check,3,100000,0,2.600
+pg intro sort - 1 preordered check,3,1000000,0,37.600
+pg intro sort - 1 preordered check,3,10000000,0,395.000
+pg intro sort - 1 preordered check,4,100000,0,2.600
+pg intro sort - 1 preordered check,4,1000000,0,38.200
+pg intro sort - 1 preordered check,4,10000000,0,398.000
+pg intro sort - 1 preordered check,5,100000,0,7.200
+pg intro sort - 1 preordered check,5,1000000,0,104.400
+rand pg_qsort,0,100000,0,0.400
+rand pg_qsort,0,1000000,0,6.000
+rand pg_qsort,0,10000000,0,66.800
+rand pg_qsort,1,100000,0,8.000
+rand pg_qsort,1,1000000,0,126.200
+rand pg_qsort,1,10000000,0,1301.200
+rand pg_qsort,2,100000,0,2.800
+rand pg_qsort,2,1000000,0,42.000
+rand pg_qsort,2,10000000,0,426.800
+rand pg_qsort,3,100000,0,2.800
+rand pg_qsort,3,1000000,0,45.200
+rand pg_qsort,3,10000000,0,465.200
+rand pg_qsort,4,100000,0,2.800
+rand pg_qsort,4,1000000,0,45.000
+rand pg_qsort,4,10000000,0,478.400
+rand pg_qsort,5,100000,0,6.600
+rand pg_qsort,5,1000000,0,112.800
+pg_qsort,0,100000,0,0.600
+pg_qsort,0,1000000,0,6.800
+pg_qsort,0,10000000,0,67.600
+pg_qsort,1,100000,0,7.200
+pg_qsort,1,1000000,0,111.800
+pg_qsort,1,10000000,0,1126.800
+pg_qsort,2,100000,0,2.400
+pg_qsort,2,1000000,0,33.800
+pg_qsort,2,10000000,0,365.800
+pg_qsort,3,100000,0,2.800
+pg_qsort,3,1000000,0,37.400
+pg_qsort,3,10000000,0,406.400
+pg_qsort,4,100000,0,2.600
+pg_qsort,4,1000000,0,38.600
+pg_qsort,4,10000000,0,412.400
+pg_qsort,5,100000,0,7.600
+pg_qsort,5,1000000,0,109.200
