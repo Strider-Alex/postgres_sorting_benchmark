@@ -1,4 +1,4 @@
-# Standalone Test
+# Standalone Test Summary
 
 ## Experiment Overview
 In the standalone test, we try to compare the performance of ```pg_qsort``` with other sorting routines in an independent environment. The sorting routines that are tested in this experiment are:
@@ -50,7 +50,7 @@ Cardinality:
 - **Compiler:** Visual C++ with all optimization on
 
 ## Experiment Result
-The detailed result can be found under ```analyzed_data``` folder.
+**The detailed result can be found under ```analyzed_data``` folder.**
 
 #### ```heap_sort```
 - When sorting small high cardinality random data with cheap comparison function (n = 100000, int/double, high cardinality, random), heap sort has the same performance (100%, 98.06%) as ```pg_qsort```
