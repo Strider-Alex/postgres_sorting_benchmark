@@ -1,0 +1,120 @@
+sorting routine,pattern,n,time(CPU clock ticks),
+heap sort,sorted,100000,20.5,4100.00%
+heap sort,sorted,1000000,222.6,8244.44%
+heap sort,sorted,10000000,2600.2,10078.29%
+heap sort,random,100000,42.7,347.15%
+heap sort,random,1000000,450.2,391.48%
+heap sort,random,10000000,7833.1,697.64%
+heap sort,reversed,100000,18.6,290.63%
+heap sort,reversed,1000000,262.6,457.49%
+heap sort,reversed,10000000,2922.9,510.37%
+heap sort,mostly sorted,100000,17.8,323.64%
+heap sort,mostly sorted,1000000,257.9,564.33%
+heap sort,mostly sorted,10000000,2818.6,602.26%
+heap sort,mostly reversed,100000,18.2,236.36%
+heap sort,mostly reversed,1000000,299.2,466.77%
+heap sort,mostly reversed,10000000,3155.8,491.63%
+heap sort,killer,100000,19.7,153.91%
+heap sort,killer,1000000,388,354.34%
+tim sort,sorted,100000,0.4,80.00%
+tim sort,sorted,1000000,2.7,100.00%
+tim sort,sorted,10000000,25.6,99.22%
+tim sort,random,100000,28.7,233.33%
+tim sort,random,1000000,331.5,288.26%
+tim sort,random,10000000,3342.8,297.72%
+tim sort,reversed,100000,21.3,332.81%
+tim sort,reversed,1000000,240.4,418.82%
+tim sort,reversed,10000000,2405.5,420.03%
+tim sort,mostly sorted,100000,4.8,87.27%
+tim sort,mostly sorted,1000000,47.5,103.94%
+tim sort,mostly sorted,10000000,510.5,109.08%
+tim sort,mostly reversed,100000,22.3,289.61%
+tim sort,mostly reversed,1000000,243.3,379.56%
+tim sort,mostly reversed,10000000,2510.5,391.10%
+tim sort,killer,100000,26.3,205.47%
+tim sort,killer,1000000,261.9,239.18%
+dual pivot quick sort,sorted,100000,6.2,1240.00%
+dual pivot quick sort,sorted,1000000,56.4,2088.89%
+dual pivot quick sort,sorted,10000000,559.8,2169.77%
+dual pivot quick sort,random,100000,19.9,161.79%
+dual pivot quick sort,random,1000000,201.8,175.48%
+dual pivot quick sort,random,10000000,1918.6,170.88%
+dual pivot quick sort,reversed,100000,11.7,182.81%
+dual pivot quick sort,reversed,1000000,106.2,185.02%
+dual pivot quick sort,reversed,10000000,1065.5,186.05%
+dual pivot quick sort,mostly sorted,100000,15.2,276.36%
+dual pivot quick sort,mostly sorted,1000000,103.3,226.04%
+dual pivot quick sort,mostly sorted,10000000,1046.7,223.65%
+dual pivot quick sort,mostly reversed,100000,14.7,190.91%
+dual pivot quick sort,mostly reversed,1000000,134.5,209.83%
+dual pivot quick sort,mostly reversed,10000000,1360.1,211.89%
+dual pivot quick sort,killer,100000,22.8,178.13%
+dual pivot quick sort,killer,1000000,175.9,160.64%
+pg intro sort,sorted,100000,0.3,60.00%
+pg intro sort,sorted,1000000,2.7,100.00%
+pg intro sort,sorted,10000000,24.7,95.74%
+pg intro sort,random,100000,11.5,93.50%
+pg intro sort,random,1000000,110,95.65%
+pg intro sort,random,10000000,1072.6,95.53%
+pg intro sort,reversed,100000,6.1,95.31%
+pg intro sort,reversed,1000000,53.9,93.90%
+pg intro sort,reversed,10000000,528.3,92.25%
+pg intro sort,mostly sorted,100000,5.1,92.73%
+pg intro sort,mostly sorted,1000000,42.6,93.22%
+pg intro sort,mostly sorted,10000000,416.9,89.08%
+pg intro sort,mostly reversed,100000,6.9,89.61%
+pg intro sort,mostly reversed,1000000,60.6,94.54%
+pg intro sort,mostly reversed,10000000,591.8,92.20%
+pg intro sort,killer,100000,11.7,91.41%
+pg intro sort,killer,1000000,102.9,93.97%
+pg intro sort - 1 preordered check,sorted,100000,0.5,100.00%
+pg intro sort - 1 preordered check,sorted,1000000,2.4,88.89%
+pg intro sort - 1 preordered check,sorted,10000000,22.4,86.82%
+pg intro sort - 1 preordered check,random,100000,11.5,93.50%
+pg intro sort - 1 preordered check,random,1000000,110.4,96.00%
+pg intro sort - 1 preordered check,random,10000000,1083.6,96.51%
+pg intro sort - 1 preordered check,reversed,100000,6,93.75%
+pg intro sort - 1 preordered check,reversed,1000000,54.6,95.12%
+pg intro sort - 1 preordered check,reversed,10000000,535.5,93.50%
+pg intro sort - 1 preordered check,mostly sorted,100000,5.1,92.73%
+pg intro sort - 1 preordered check,mostly sorted,1000000,43.1,94.31%
+pg intro sort - 1 preordered check,mostly sorted,10000000,419.4,89.62%
+pg intro sort - 1 preordered check,mostly reversed,100000,6.7,87.01%
+pg intro sort - 1 preordered check,mostly reversed,1000000,60.7,94.70%
+pg intro sort - 1 preordered check,mostly reversed,10000000,596.2,92.88%
+pg intro sort - 1 preordered check,killer,100000,11.9,92.97%
+pg intro sort - 1 preordered check,killer,1000000,104.1,95.07%
+rand pg_qsort,sorted,100000,0.5,100.00%
+rand pg_qsort,sorted,1000000,2.6,96.30%
+rand pg_qsort,sorted,10000000,24.4,94.57%
+rand pg_qsort,random,100000,11.8,95.93%
+rand pg_qsort,random,1000000,110.3,95.91%
+rand pg_qsort,random,10000000,1107.3,98.62%
+rand pg_qsort,reversed,100000,7.2,112.50%
+rand pg_qsort,reversed,1000000,64.4,112.20%
+rand pg_qsort,reversed,10000000,634.4,110.77%
+rand pg_qsort,mostly sorted,100000,6,109.09%
+rand pg_qsort,mostly sorted,1000000,52,113.79%
+rand pg_qsort,mostly sorted,10000000,505.1,107.93%
+rand pg_qsort,mostly reversed,100000,7.7,100.00%
+rand pg_qsort,mostly reversed,1000000,69.5,108.42%
+rand pg_qsort,mostly reversed,10000000,710.7,110.72%
+rand pg_qsort,killer,100000,11.4,89.06%
+rand pg_qsort,killer,1000000,105.7,96.53%
+pg_qsort,sorted,100000,0.5,100.00%
+pg_qsort,sorted,1000000,2.7,100.00%
+pg_qsort,sorted,10000000,25.8,100.00%
+pg_qsort,random,100000,12.3,100.00%
+pg_qsort,random,1000000,115,100.00%
+pg_qsort,random,10000000,1122.8,100.00%
+pg_qsort,reversed,100000,6.4,100.00%
+pg_qsort,reversed,1000000,57.4,100.00%
+pg_qsort,reversed,10000000,572.7,100.00%
+pg_qsort,mostly sorted,100000,5.5,100.00%
+pg_qsort,mostly sorted,1000000,45.7,100.00%
+pg_qsort,mostly sorted,10000000,468,100.00%
+pg_qsort,mostly reversed,100000,7.7,100.00%
+pg_qsort,mostly reversed,1000000,64.1,100.00%
+pg_qsort,mostly reversed,10000000,641.9,100.00%
+pg_qsort,killer,100000,12.8,100.00%
+pg_qsort,killer,1000000,109.5,100.00%

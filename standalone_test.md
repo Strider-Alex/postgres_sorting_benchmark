@@ -80,7 +80,8 @@ Cardinality:
 #### ```intro_sort```
 - For high cardinality data, ```intro_sort``` has nearly the same performance as ```pg_qsort``` (about 98%-105%)
 - For low cardinality data, ```intro_sort``` can be relatively slower (about 98%-110%)
-- No significant difference between string and other data types
+- No significant difference between string and integer
+- Only need 85%-95% time of ```pg_qsort``` to sort double floatings. This is a little bit strange and may be platform related
 - O(nlogn) worst case time complexity, takes less than 1% time of ```pg_qsort``` to sort the killer sequence of size 1000000
 
 #### ```intro_sort_check_once```
@@ -90,7 +91,7 @@ Cardinality:
 
 #### ```rand_pg_qsort```
  - About 100%-110% time to sort random data
- - 110%-140% time to sort paritialy-sorted data
+ - 110%-140% time of ```pg_qsort``` to sort paritialy-sorted data
  - Impossible to generate killer sequence for this algorithm, so we can consider the time complexity to be O(nlogn)
 
 ## Conclusion
