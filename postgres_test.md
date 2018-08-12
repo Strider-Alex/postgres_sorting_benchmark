@@ -32,13 +32,13 @@ The tests are carried out in **two** environments. One is on the (quite old) i5-
 
 The first tested implemention of intro sort does only one presorted check on the whole array (original ```pg_qsort``` does presorted check in every recursion).
 
-#### i5-2500K
+### i5-2500K
 
 Values smaller than 100% indicates a performance gain.
 
 N = 10K
 
-| Data | #worker | Select Query | Create Index |
+| Data | #worker | Create Index | Select Query |
 | --- | --- |---| ---|
 | high_cardinality_almost_asc| 0 | 100.07% | 99.19% |
 | high_cardinality_almost_asc| 4 | 101.67% | 99.21% |
@@ -57,11 +57,13 @@ The results shows the sorting patch brings a little gain on ```select``` queries
 
 For larger data set (N = 100K and 1M), the results are  very similar. For N = 100K, this regression can reach about 30%. And for N = 1M, it drops back to about 6%.
 
-#### e5-2620v4
+The orignal test also tests unique data, but the results are very similar with high cardinality data.
+
+### e5-2620v4
 
 N = 10K
 
-| Data | #worker | Select Query | Create Index |
+| Data | #worker | Create Index | Select Query |
 | --- | --- |---| ---|
 | high_cardinality_almost_asc| 0 | 104.08% | 97.50% |
 | high_cardinality_almost_asc| 4 | 105.07% | 98.21% |
@@ -78,12 +80,12 @@ N = 10K
 
 The regression on low cardinality almost ascendent data is more dramatic on the faster CPU, where we can observe a regression of about 25% on ```create index``` queries. For N = 100K, there is a 35% regression for ```create index``` queries on low cardinality ascendent data and 10% on other data. For N = 1M, the regression on low cardinality ascendent data drops to about 8%. On other data there's a 3%-5% peformance gain.
 
-#### Variation of Intro Sort on i5-2500K
+### Variation of Intro Sort on i5-2500K
 Previous tests show that the new intro sort implementation has large regression on low cardinality almost ascendent data, which is unlikely to be accepted. Therefore, we decide to bring back the presorted check in ```pg_qsort``` sort to every recursion of intro sort instead of only checking once on the whole array. Then we rerun test on the i5 CPU.
 
 N = 10K
 
-| Data | #worker | Select Query | Create Index |
+| Data | #worker | Create Index | Select Query |
 | --- | --- |---| ---|
 | high_cardinality_almost_asc| 0 | 100.89% | 100.61% |
 | high_cardinality_almost_asc| 4 | 100.32% | 100.74% |
