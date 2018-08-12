@@ -21,8 +21,8 @@ The tests are carried out in **two** environments. One is on the (quite old) i5-
 
 ## Experiment Steps
 1. Get ```run-bench.sh```, ```sort-bench.sh``` and ```master.conf``` under this [repo](https://bitbucket.org/tvondra/sort-intro-sort-i5-2/src)
-2. Install the master branch of PostgreSQL to /var/lib/postgresql/pg-master/
-3. Apply a sorting patch and install to /var/lib/postgresql/pg-patched/
+2. Install the master branch of PostgreSQL to ```/var/lib/postgresql/pg-master/```
+3. Apply a sorting patch and install to ```/var/lib/postgresql/pg-patched/```
 4. Run ```run-bench.sh``` and wait for the results to be generated.
 5. Repeat 2-4 for each sorting patch we want to test.
 
